@@ -6,46 +6,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="/css/index.css">
-    <!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-</head>
+    </head>
     <body>
 
         <header>
-            <div>Once upon a time there lived a little country girl, the prettiest creature who was ever seen. Her mother had a little red riding hood made for her. Everybody called her Little Red Riding Hood. </div>
+           little red riding hood
+            </header>
+
+        <main>
+            <div> Once upon a time there lived a little country girl, the prettiest creature who was ever seen. Her mother had a little red riding hood made for her. Everybody called her Little Red Riding Hood.
+                 </div>
+ <div> One day her mother told her to go and visit her grandma as she heard she might be ill, Little red riding hood set out immediatly. 
+    As little red riding hood seat out on her way to see her grandmother she passed through the woods and happened to meet a wolf "where are you going" he asked and not knowing any better she replied "to my grandmothers house" the wolf pauses for a second as to think then asks the girl "does she live far?" to wich the little red riding hood replies "it is just beyond the mill you see there" as she points in the direction she is heading.
+ 
+ It was not long before the wolf arrived at the old grandmothers house as he knocked the door gently "tap, tap, tap," 
+    "who is it?" the grandma replies waiting for a responce, shortly after the wolf replies with "its me granny your grandchild" faking little red riding hoods voice    
+
+ The grandmother as nice as she is called out big ears you have?" the wolf replies "better to hear you with"
+ Another step closer she asks "grandmother, what big eyes you have?"
+"better to see you with" he replies unable to hide his expression of hunger.
+"Grandmother" as Little red riding hood takes the last step to teh bed, "what big teeth you have got!"
+The wolf JUMPS out of bed and shouts "BETTER TO EAT YOU WITH MY DEAR" changing back to his voice, 
+Out of shock and fear little red riding hood steps back a few steps and scream "AHHHHHH" 
+Fortunatly a hunter was passing by and heard the girl screaming, quickly after he barges in charging at the wolf "Stay back, i'll stop him" he says firmly holding his axe, the wolf lunges at him but is no match,
+one feil swing of the axe and the wolf was no more,
+ little red riding hood still in shock asks the hunter "i..i..is my grandmother okay, the wolf a.at..ate her and im worried" the man walks over to where the wolf was and pulls something off the ground "Oh little red riding hood are you okay, i was so scared when i got eaten
+ and was worried about if youll be okay" then thanks the hunter and invites him to stay for lunch 
+"yes i thought you looked a bit different but im glad that wastn you and that your ok" little red riding hood says trynig to hold back tears of shock and happynes, they sat down and enjoyed a chat and snacks.
+ </div>
+            </main>
+            </body>
+            </html>
